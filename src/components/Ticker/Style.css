@@ -1,0 +1,15 @@
+.Ticker-time-endsAfter {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    margin-left: 5px;
+    font-family: 'DINNextLTPro-Medium';
+    font-size: 10pt;
+    color: #000000;
+    -ms-flex-item-align: end;
+    align-self: flex-end;
+}
+
+.Ticker-time-endsAfter-red {
+    color: #FF0000 !important;
+}

@@ -1,0 +1,12 @@
+.LikeButton {
+    display: block;
+    position: absolute;
+    right: 12px;
+    top: 12px;
+}
+
+.LikeButton img {
+    width: 20px;
+    height: auto;
+    cursor: pointer;
+}

@@ -1,0 +1,47 @@
+.LeftNavigationBar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 75px;
+    max-width: 75px;
+    min-height: 100vh;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ff633e), to(#ff3049));
+    background: -webkit-linear-gradient(top, #ff633e 0%, #ff3049 100%);
+    background: -o-linear-gradient(top, #ff633e 0%, #ff3049 100%);
+    background: linear-gradient(to bottom, #ff633e 0%, #ff3049 100%);
+}
+
+.LeftNavigationBar div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-height: 70px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.LeftNavigationBar div:hover {
+    background-color: #ffffff;
+}
+
+.LeftNavigationBar div img {
+    width: 35px;
+    height: auto;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+}
+
+.selected {
+    background-color: #ffffff;
+}

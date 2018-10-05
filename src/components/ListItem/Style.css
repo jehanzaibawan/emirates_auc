@@ -1,0 +1,140 @@
+.ListItem {
+    -ms-flex-preferred-size: 25%;
+    flex-basis: 25%;
+    position: relative;
+    border: 0.5px solid #DADFE2;
+    border-radius: 8px;
+    -webkit-box-shadow: 0 8px 6px -6px #EAECF0;
+    box-shadow: 0 8px 6px -6px #EAECF0;
+    margin: 10px 5px 0px 5px;
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+    /*background-image: url('./images/loading.png');
+    background-repeat: no-repeat;
+    background-position: center;*/
+}
+
+.ListItem-info-bar-top {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    padding: 12px 0px 12px 12px;
+}
+
+.ListItem-image {
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.ListItem-title {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    font-family: 'DINNextLTPro-Medium';
+    font-size: 12pt;
+    color: #3F3F3F;
+}
+
+.ListItem-amount {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-family: 'DINNextLTPro-Medium';
+    font-size: 14pt;
+    color: #87D155;
+}
+
+.ListItem-currency {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    font-family: 'DINNextLTPro-Light';
+    font-size: 10pt;
+    color: #87D155;
+    padding-left: 3px;
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+}
+
+.ListItem-info-bar-bottom {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    padding: 10px 0px 10px 0px;
+    border-top: 0.5px solid #DADFE2;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.ListItem-info-bar-lot,
+.ListItem-info-bar-bids,
+.ListItem-info-bar-timer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 33.33%;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.ListItem-info-bar-icons {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    width: 16px;
+    height: auto;
+    -ms-flex-item-align: center;
+    align-self: center;
+}
+
+.ListItem-info-bar-text {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    margin-left: 5px;
+    font-family: 'DINNextLTPro-Medium';
+    font-size: 10pt;
+    color: #000000;
+    -ms-flex-item-align: end;
+    align-self: flex-end;
+}
+
+@media only screen and (max-width: 980px) {
+    .ListItem {
+        -ms-flex-preferred-size: 35%;
+        flex-basis: 35%;
+    }
+}
+
+@media only screen and (max-width: 745px) {
+    .ListItem-info-bar-lot,
+    .ListItem-info-bar-bids,
+    .ListItem-info-bar-timer {
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    }
+}
+
+@media only screen and (max-width: 510px) {
+    .ListItem {
+        -ms-flex-preferred-size: 80%;
+        flex-basis: 80%;
+    }
+    .ListItem-info-bar-lot,
+    .ListItem-info-bar-bids,
+    .ListItem-info-bar-timer {
+        -ms-flex-preferred-size: 33.33%;
+        flex-basis: 33.33%;
+    }
+}
