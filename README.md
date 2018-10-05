@@ -1,6 +1,6 @@
-#Emirates Auction - Front-end
+# Emirates Auction - Front-end
 
-##Build instructions
+## Build instructions
 This application is bootstrapped using [Create React App](https://github.com/facebook/create-react-app).
 
 Download or clone this repository to your local computer. Once downloaded, open the CMD a.k.a Command Prompt(if using windows), reach to the directory using CD command and run "npm install". This will install all the dependencies I have specified in the package.json file, and are necessary in order to this application work properly.
